@@ -14,6 +14,7 @@
 		D64B419E20695097005182F2 /* SpectrumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64B419D20695097005182F2 /* SpectrumView.swift */; };
 		D64B41A02069524B005182F2 /* RecordAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64B419F2069524B005182F2 /* RecordAudio.swift */; };
 		D64B41A4206969C6005182F2 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D64B41A3206969C6005182F2 /* libc++.tbd */; };
+		D681A3F8207E93EE00D05D67 /* demo.png in Resources */ = {isa = PBXBuildFile; fileRef = D681A3F7207E93EE00D05D67 /* demo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		D64B419D20695097005182F2 /* SpectrumView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpectrumView.swift; sourceTree = "<group>"; };
 		D64B419F2069524B005182F2 /* RecordAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordAudio.swift; sourceTree = "<group>"; };
 		D64B41A3206969C6005182F2 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		D681A3F7207E93EE00D05D67 /* demo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		B00518FB199BDB2E0070659F = {
 			isa = PBXGroup;
 			children = (
+				D681A3F7207E93EE00D05D67 /* demo.png */,
 				B0051906199BDB2E0070659F /* RecPlayer */,
 				B0051919199BDB2E0070659F /* RecPlayer Tests */,
 				B0051905199BDB2E0070659F /* Products */,
@@ -220,6 +223,7 @@
 			files = (
 				B005190F199BDB2E0070659F /* Main.storyboard in Resources */,
 				B0051911199BDB2E0070659F /* Images.xcassets in Resources */,
+				D681A3F8207E93EE00D05D67 /* demo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
