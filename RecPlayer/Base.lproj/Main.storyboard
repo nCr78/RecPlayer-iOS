@@ -13,7 +13,7 @@
         <!--Recorder View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="RecorderViewController" customModule="AVFoundation_Recorder" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="RecorderViewController" customModule="RecPlayer" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -55,7 +55,7 @@
                                                 </constraints>
                                             </view>
                                             <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="crr-Ya-J7S">
-                                                <rect key="frame" x="171" y="16" width="1" height="128"/>
+                                                <rect key="frame" x="171" y="12" width="1" height="128"/>
                                                 <color key="backgroundColor" red="1" green="0.056107677719999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="128" id="WPh-pb-QzR"/>
@@ -68,7 +68,7 @@
                                             <constraint firstItem="oaG-6g-9I7" firstAttribute="centerX" secondItem="crr-Ya-J7S" secondAttribute="centerX" id="04j-Gr-Gpf"/>
                                             <constraint firstItem="oaG-6g-9I7" firstAttribute="leading" secondItem="D36-RT-uTO" secondAttribute="leading" id="KJz-Hc-KXm"/>
                                             <constraint firstAttribute="trailing" secondItem="oaG-6g-9I7" secondAttribute="trailing" id="iJj-hf-5EN"/>
-                                            <constraint firstItem="crr-Ya-J7S" firstAttribute="top" secondItem="D36-RT-uTO" secondAttribute="top" constant="16" id="jXW-yK-wFL"/>
+                                            <constraint firstItem="crr-Ya-J7S" firstAttribute="top" secondItem="D36-RT-uTO" secondAttribute="top" constant="12" id="jXW-yK-wFL"/>
                                             <constraint firstAttribute="height" constant="150" id="mfX-aR-rnd"/>
                                             <constraint firstItem="oaG-6g-9I7" firstAttribute="top" secondItem="D36-RT-uTO" secondAttribute="top" constant="74.5" id="p1a-oh-vng"/>
                                         </constraints>
